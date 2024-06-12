@@ -3,7 +3,9 @@ import { ThemeProvider } from 'styled-components';
 import {lightTheme, darkTheme, GlobalStyle} from './Functionality/Themes.js';
 import { NavBar } from './Components/NavBar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
+import { Header } from './Components/Header.jsx'
+import { AboutMe } from './Components/About.jsx';
+import { Experience } from './Components/Experience.jsx';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -15,8 +17,11 @@ function App() {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
-        <div className="App">
-          <NavBar theme={theme} changeTheme={toggleTheme}/>      
+        <div className="App" style={{paddingBottom:"200px"}}>
+          <NavBar theme={theme} changeTheme={toggleTheme}/>  
+          <Header />   
+          <AboutMe /> 
+          <Experience />
         </div>
     </ThemeProvider>
   )

@@ -1,0 +1,15 @@
+{
+    "data":[
+    {
+        "title": "26 Degrees Global Markets Intern",
+        "img":"/26.png",
+        "description":"I currently work at 26 Degrees Global Markets as a Quantative Research Intern, primarily focussed on devloping analysis of decision making and risk margins. This involves heavy analysis using Python for rapid development, combined with extensive use of both MySQL and Excel.",
+        "skills":"Leadership, Initiative, Programming"
+    },
+    {
+        "title": "Sydney University Mechatronics Organisation President",
+        "img":"/SUMO.jpg",
+        "description":"I am currently the President of the Sydney University Mechatronic Organisation. I have been part of the organisation for almost 3 years and have seen a growth up to 700 members and over 5 sponsors. We hosted hackathons, speaker series, and social events for our members to have an enriched university experience",
+        "skills":"Teamwork, Organisation, Responsibility"
+    }]
+}
